@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  color:azure;
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+  border: solid 1px white;
+  width: 12em;
+  padding: 1em;
+}
+
+th {
+  text-transform: uppercase;  
+  font-weight: bold;
+  height: 6em;
+
+}
+
+td {
+  height: 9em;
+}
+
+td:hover {
+  cursor: pointer;
+}
